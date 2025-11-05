@@ -3,7 +3,7 @@
 pragma solidity ^0.8.19;
 
 import {Script, console} from "forge-std/Script.sol";
-import {DevOpsTools} from "foundry-devops/DevOpsTools.sol";
+import {DevOpsTools} from "@foundry-devops/DevOpsTools.sol";
 import {FundMe} from "../src/FundMe.sol";
 
 contract FundFundMe is Script {
